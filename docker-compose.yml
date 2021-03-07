@@ -1,0 +1,8 @@
+services:
+  ratings:
+    build: .
+    image: ghcr.io/adisus2-plasma/bookinfo-ratings:dev
+    ports:
+      - "9080:9080"
+    environment:
+      SERVICE_VERSION: v1
