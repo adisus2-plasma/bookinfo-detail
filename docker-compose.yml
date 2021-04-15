@@ -2,7 +2,7 @@
 services:
   details:
     build: .
-    image: ghcr.io/adisus2-plasma/bookinfo-ratings:dev
+    image: ghcr.io/adisus2-plasma/bookinfo-details:prd
     ports:
       - "9080:9080"
     environment:

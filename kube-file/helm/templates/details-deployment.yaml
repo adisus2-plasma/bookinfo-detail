@@ -34,3 +34,4 @@ spec:
             port: {{ .Values.details.port }}
             scheme: HTTP
       imagePullSecrets:
+      - name: {{ .Values.details.imagePullSecrets }}
