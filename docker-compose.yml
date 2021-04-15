@@ -1,5 +1,6 @@
+  
 services:
-  ratings:
+  details:
     build: .
     image: ghcr.io/adisus2-plasma/bookinfo-ratings:dev
     ports:
